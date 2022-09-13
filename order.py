@@ -14,4 +14,9 @@ class Order:
         self.items += ['lemonade']
         print('Added lemonade')
 
+    def add_chicken_strips(self):
+        self.total_cost += 15
+        self.items += ['chicken strips']
+        print('Added chicken strips')
+
     # implement methods for menu items
